@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.direito{
+    background-color: blueviolet;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.direito-news img{
+    border-radius: 0 0 40px 0;
+}
+
+
+h2{
+    margin: 20px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: white;
+}
+
+.esquerdo img{
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+
+
+button{
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 15px;
+    height: 30px;
+    width: 120px;
+    border: none;
+}
+
+
+
+.barra-legenda p {
+    position: relative;
+    top: -10px;
+    color: white;
+    margin: 10px;
+}
+
+@media only screen and (min-width:390px) {
+    section {
+     display: block;
+    }
+    .direito{
+        background-color: blueviolet;
+        width: 50%;
+        height: auto;
+        margin: 5px;
+    }
+
+    .direito{
+        background-color: blueviolet;
+        width: 50%;
+        height: auto;
+        margin: 5px;
+    }
+    .esquerdo{
+        background-color: blueviolet;
+        width: 50%;
+        height: auto;
+    }
+    .esquerdo img{
+        width: 100%;
+    }
+    .direito-news img{
+        margin-top: 0;
+        height: 100px;
+    }
+    
+    h2{
+        margin: 5px;
+        color: rgb(255, 255, 255);
+    }
+
+  }
+
