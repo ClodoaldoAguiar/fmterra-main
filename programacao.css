@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title-programacao{
+    color: white;
+    padding: 10px 0;
+    background-color: #0F5EFF;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.container-programacao{
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.container-card-programacao{
+    margin: 5px;
+    display: flex;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.text-prog{
+    padding: 10px;
+    color: white;
+}
+
+.container-programacao-maior{
+    display: flex;
+    width: 100%;
+}
+
+.text-prog p{
+    text-align: justify;
+    font-size: 12px;
+}
+
+.logo-prog img{
+    width: 150px;
+    margin: 10px;
+}
+
+

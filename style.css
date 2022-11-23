@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 *{
     margin: 0;
@@ -78,7 +78,6 @@ header{
     flex-direction: column;
     width: 100%;
     text-align: center;
-    font-weight: 400;
 }
 .navigation ul li a .icon{
     position: relative;
@@ -269,14 +268,14 @@ h3 {
     margin-top: 20px;
     color: white;
     font-size: 15px;
-    font-weight: 500;
+
 }
 
-p{
+/* p{
     font-size: 10px;
     margin-top: 65px;
     margin-right: 10px;
-}
+} */
 
 footer{
     background-color: #096fc4;
@@ -302,7 +301,6 @@ footer{
     font-size: 22px;
     color: white;
     margin-bottom: 20px;
-    font-weight: 500;
     position: relative;
     text-transform: uppercase;
 }
@@ -370,7 +368,6 @@ footer{
     cursor: pointer;
     color: #096fc4;
     border-radius: 3px;
-    font-weight: bold;
     background-color: white;        
 }
 
@@ -396,7 +393,6 @@ footer{
 .titulo{
     border-radius: 10px;
     margin: -5px 5px 5px;
-    font-weight: 600;
     font-size: 28px;
     border: solid rgb(226, 43, 205);
     background-color: white;
@@ -418,7 +414,7 @@ footer{
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container, img {
+.slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: 10px 10px 0 0 ;
@@ -509,7 +505,7 @@ footer{
     display: flex;
 }
 
-.container-noticias, p{
+.container-noticias{
     display: flex;
     text-align: justify;
     color: black;
@@ -555,11 +551,19 @@ footer{
 
     }
 
-    p{
+    .container-noticias{
+        display: block;
+    }
+
+    .container-programacao{
+        display: block;
+    }
+
+    /* p{
         font-size: 10px;
         margin-top: 15px;
         margin-right: 10px;
-    }
+    } */
 
     .indicator{
         position: absolute;
@@ -592,18 +596,18 @@ footer{
     }
 
 
-    h3 {
+    /* h3 {
         align-items: center;
         margin-top: 10px;
         color: white;
         font-size: 25px;
         font-weight: 500;
-    }
+    } */
 
-    p {
+    /* p {
         font-size: 15px;
         margin-bottom: 10px;
-    }
+    } */
     
 
     .direito-news img{
