@@ -505,6 +505,29 @@ footer{
 }
 
 
+.container-programacao {
+    display: flex;
+}
+
+.container-noticias, p{
+    display: flex;
+    text-align: justify;
+    color: black;
+}
+
+.esquerdo-noticias{
+    width: 100%;
+}
+
+.container-title{
+    color: white;
+    font-size: 26px;
+    background-color: blueviolet;
+    margin: 5px 0;
+    border-radius: 10px 10px 0 0 ;
+
+}
+
 /* Responsivo */
 @media (max-width: 800px) {
     .footer-col{
