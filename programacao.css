@@ -15,11 +15,12 @@
 .container-programacao{
     display: block;
     text-align: left;
-    margin-top: 20px;
+    margin: 5px;
 }
 
 .container-card-programacao{
     margin: 5px;
+    width: 100%;
     display: flex;
     border-radius: 10px;
     background-color: blueviolet;
@@ -43,6 +44,16 @@
 .logo-prog img{
     width: 150px;
     margin: 10px;
+}
+
+@media (max-width: 390px) {
+    .container-programacao-maior{
+        display: block;
+        width: 100%;
+    }
+    .container-card-programacao{
+     display: block;
+    }
 }
 
 
