@@ -10,7 +10,8 @@
 }
 
 .img-noticias img{
-    width: 50vw;
+    width: 450px;
+    height: 450px;
 }
 
 .direito-noticias{
@@ -57,7 +58,8 @@ h1{
         width: 100vw;
     }
     .img-noticias img{
-        width: 200vw;
+        width: 250px;
+        height: 250px;
         text-align: center;
     }
 }
