@@ -281,6 +281,18 @@ h4 {
     color: white;
 }
 
+.direito-news:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+
+.esquerdo:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+
 /* p{
     font-size: 10px;
     margin-top: 65px;
