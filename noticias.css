@@ -9,6 +9,12 @@
     padding: 10px;   
 }
 
+.logo-prog img{
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 66px 0 ;
+}
+
 .img-noticias img{
     width: 450px;
     height: 450px;

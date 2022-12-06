@@ -385,11 +385,6 @@ footer{
     
 }
 
-.esquerdo img{
-    border-radius: 10px;
-    padding: 5px;
-}
-
 .titulo{
     border-radius: 10px;
     margin: -5px 5px 5px;
@@ -399,10 +394,9 @@ footer{
 }
 
 .direito-news{
-    border: white 1px solid;
     border-radius: 10px;
     display: flex;
-    margin: 10px 10px 10px 10px ;
+
 }
 
 
@@ -524,6 +518,17 @@ footer{
 
 }
 
+.container-comercial, .text-comercial{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 10px;
+}
+
+.container-comercial, .ma, .to, .pa{
+    padding: 10px;
+}
+
 /* Responsivo */
 @media (max-width: 800px) {
     .footer-col{
@@ -552,6 +557,10 @@ footer{
     }
 
     .container-noticias{
+        display: block;
+    }
+
+    .container-comercial{
         display: block;
     }
 
