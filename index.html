@@ -25,6 +25,45 @@
 </head>
 <body>
 
+
+			<!-- inicio funçao troca logo programacao -->
+	
+
+			<script>
+				function rodarImagens(){
+					var now = new Date();
+					var agora = now.getDay();
+					var hora = now.getHours();
+					var data = now.getDate();
+					switch (agora){
+						case 0: //domingo
+							if(hora >= 08 && hora < 08){ document.write('<img src="programas/prog_01.png">');}
+							break;
+						case 1: //segunda
+						case 2: //terça
+						case 3: //quarta
+						case 4: //quinta
+						case 5: //sexta
+							if(hora >= 05 && hora < 08){ document.write('<img src="programas/logo_cantodaterra.png">');}
+							if(hora >= 08 && hora < 12){ document.write('<img src="programas/logo_transitolivre.png">');}
+							if(hora >= 12 && hora < 13){ document.write('<img src="programas/logo_topretro.png">');}
+							if(hora >= 13 && hora < 16){ document.write('<img src="programas/logo_ligoutocou.png">');}
+							if(hora >= 16 && hora < 19){ document.write('<img src="programas/logo_fimdetarde.png">');}
+							if(hora >= 19 && hora < 21){ document.write('<img src="programas/logo_paradaodaterra.png">');}
+							if(hora >= 21 && hora < 22){ document.write('<img src="programas/logo_vozdobrasil.png">');}
+							if(hora >= 22 && hora < 23){ document.write('<img src="programas/logo_deixatocar.png">');}
+							if(hora >= 00 && hora < 05){ document.write('<img src="programas/logo_deixatocar.png">');}
+							break;
+						case 6: //sábado
+							break;
+						default:
+							break;
+					}
+				}
+				</script>
+		
+			<!-- fim funçao troca logo programacao -->
+
 	<div class="logo">
 		<img src="logofmterra.png">
 	</div>
@@ -153,11 +192,17 @@
 			<!--CORPO LIVE E PROGRAMAS-->
 			<section class="container-section">
 				<div class="live">
-					<iframe width="100%" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+					<iframe width="560" height="420" src="https://www.youtube.com/embed/Y04RDlvAM04" title="Churrasquinho do Menos é Mais - Quem/Frenesi/Deixa Alagar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 				<div class="programacao">
-					<img height="315" src="programas/prog_01.png">
+
+					<div class="no-ar">
+						<script>
+							document.write(rodarImagens())
+						</script>
+					</div>
+
+					
 				</div>
 			</section> 
 			

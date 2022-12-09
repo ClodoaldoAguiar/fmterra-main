@@ -17,6 +17,43 @@
 </head>
 <body>
 
+		<!-- inicio funçao troca logo programacao -->
+	
+
+		<script>
+			function rodarImagens(){
+				var now = new Date();
+				var agora = now.getDay();
+				var hora = now.getHours();
+				var minuto = now.getMinutes();
+				var data = now.getDate();
+				switch (agora){
+					case 0: //domingo
+						if(hora >= 08 && hora < 08){ document.write('<img src="programas/prog_01.png">');}
+						break;
+					case 1: //segunda
+					case 2: //terça
+					case 3: //quarta
+					case 4: //quinta
+					case 5: //sexta
+						if(hora >= 05 && hora < 08){ document.write('<img src="programas/logo_cantodaterra.png">');}
+						if(hora >= 08 && hora < 12){ document.write('<img src="programas/logo_transitolivre.png">');}
+						if(hora >= 12 && hora < 13){ document.write('<img src="programas/logo_topretro.png">');}
+						if(hora >= 13 && hora < 16){ document.write('<img src="programas/logo_ligoutocou.png">');}
+						if(hora >= 16 && hora < 19){ document.write('<img src="programas/logo_fimdetarde.png">');}
+						if(hora >= 19 && hora < 21){ document.write('<img src="programas/logo_paradaodaterra.png">');}
+						if(hora >= 21 && hora < 22){ document.write('<img src="programas/logo_vozdobrasil.png">');}
+						if(hora >= 22 && hora < 23){ document.write('<img src="programas/logo_deixatocar.png">');}
+						if(hora >= 00 && hora < 05){ document.write('<img src="programas/logo_deixatocar.png">');}
+						break;
+					case 6: //sábado
+						break;
+				}
+			}
+			</script>
+	
+		<!-- fim funçao troca logo programacao -->
+
 	<div class="logo">
 		<img src="logofmterra.png">
 	</div>
@@ -146,7 +183,15 @@
 
 		<div class="title-programacao">PROGRAMAÇÃO</div>
 
+		<div class="no-ar">
+			<script>
+				document.write(rodarImagens())
+			</script>
+		</div>
+
 		<div class="container-programacao-maior">
+
+
 
 		<section class="container-programacao">
 			<div class="container-card-programacao">
@@ -317,7 +362,11 @@
 						<!--end footer col-->
 					</div>
 				</div>
+
+
 			</footer>
+
+
 
 	</div>
 	
@@ -336,6 +385,7 @@
 
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 
 
 
