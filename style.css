@@ -219,13 +219,12 @@ header{
 
 .live{
     display: flex;
-    width: 60%;
-    margin: 20px;
+    margin: 10px;
     border-radius: 20px;
 }
 
 .programacao {
-    margin: 20px;
+    margin: 10px 0;
 }
 
 .container-banner img{
